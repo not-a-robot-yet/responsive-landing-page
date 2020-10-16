@@ -1,10 +1,79 @@
 /* General Styles */
 /* Apply to all sizes */
 *, *:before, *:after {
-  box-sizing: border-box;
+  	margin: 0;
+  	padding: 0;
+	box-sizing: border-box;
 }
 
+.page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+body {
+	background-color: paleturquoise;
+	font-family: "Lato", sans-serif;
+}
+
+/* Top banner or whatever */
+.header-box {
+	display: flex;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: cyan;
+}
+
+/* The top of the page where we can solicit you for your email address */
+.up-top {
+	display: flex;
+	padding-top: 40px; /* So it's not covered by top banner */
+}
+
+/* Icon section with summaries, etc. */
+.icon-box {
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	margin: 10px;
+	border: 2px solid grey;
+}
+
+.description-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.description-text {
+
+}
+
+/* Price section */
+.price-box {
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	border: 2px solid grey;
+}
+
+.tenor {
+
+}
+
+.bass {
+
+}
+
+.valve {
+
+}
+
+.footer {
+	display: flex;
+	background-color: cyan;
+}
 
 /* Add Breakpoints Here */
 /* Apply to certain size and above */
-
